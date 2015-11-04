@@ -1,79 +1,118 @@
 header
 {
-	text-align : center;
-	color : white;
+	text-align: center;
+	background-color: #F08080;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	margin: -22px -8px 0px -8px;
+	font-size: 1.8em;
 }
 
 body
 {
-	background-color : gray;
-	background-image: url("http://www.omegatic.com/wp-content/uploads/2014/05/Background-HD-Wallpaper-02-Download.jpg");
-	background-size : cover;
-}
-
-section
-{
-	border : solid black 1.2em;
-	border-radius : 2em;
-	background-color : silver;
-	width : 550px;
-	margin : auto;
-}
-
-li
-{
-	line-height : 2em;
+	background-color: #FFB6C1;
 }
 
 h2
 {
-	text-align : center;
+	text-align: center;
+	padding-top: 1em;
+	font-size: 2.5em;
+	margin-top: .8;;
 }
 
-strong
+dt
 {
-	font-weight: bold;
-	color: red;
+	display: inline;
+	margin-left: 5px;
 }
 
-@media (max-width:1024px)
+code
+{
+	background-color: black;
+	color: white;
+	border-radius: .8em .8em .8em .8em;
+	padding: 5px 15px;
+	font-weight: bold;
+
+}
+
+li
+{
+	line-height: 2em;
+	list-style: none;
+	font-size: 1em;
+}
+
+#article1
+{
+	display: inline-block;
+	padding-top: 2em;
+}
+
+#article2
+{
+display: inline-block;
+}
+
+@media (max-width: 1024px)
 {
 
 header
 {
 	text-align: center;
-	color: white;
+	background-color: #F08080;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	margin: -22px -8px 0px -8px;
+	font-size: 1.3em;
 }
 
 body
 {
-	background-image: url("http://www.omegatic.com/wp-content/uploads/2014/05/Background-HD-Wallpaper-02-Download.jpg");
-	background-size : cover;
-}
-
-section
-{
-	border: solid black .5em;
-	border-radius: 1em;
-	background-color: silver;
-	width: 90%;
-	margin: auto;
-	line-height: 1.5em;
-}
-
-li
-{
-	line-height: 1.5em;
+		background-color: #FFB6C1;
 }
 
 h2
 {
-	text-align:center;
+	text-align: center;
+	padding-top: 1em;
+	font-size: 2em;
+	margin-top: .8;;
 }
 
-strong
+dt
 {
-	font-weight: bold;
-	color: red;
+	display: inline;
+	margin-left: 5px;
 }
+
+code
+{
+	background-color: black;
+	color: white;
+	border-radius: .8em .8em .8em .8em;
+	padding: 5px 15px;
+	font-weight: bold;
+}
+
+li
+{
+	line-height: 1.7em;
+	list-style: none;
+	font-size: 1.2em;
+	margin-left: -30px;
+}
+
+#article1
+{
+	display: inline-block;
+	padding-top: 2em;
+}
+
+#article2
+{
+		display: inline-block;
+}
+
 }
