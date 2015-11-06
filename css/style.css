@@ -55,6 +55,13 @@ li
 display: inline-block;
 }
 
+.toppages
+{
+	color: black;
+	margin-left: 550px;
+	font-size: 1em;
+}
+
 @media (max-width: 1024px)
 {
 
@@ -115,4 +122,10 @@ li
 		display: inline-block;
 }
 
+.toppages
+{
+	color: black;
+	margin-left: 80px;
+	font-size: 1em;
+}
 }
